@@ -1,1 +1,1 @@
-Hari ini saya datang ke acara coinfest asia day 2 bersama teman
+Hari ini saya datang ke acara coinfest asia day 2 bersama teman bernama nanda.
