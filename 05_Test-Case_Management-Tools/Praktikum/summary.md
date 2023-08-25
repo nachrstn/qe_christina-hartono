@@ -14,10 +14,10 @@
 Test case management tools lainnya : testRail, Test Link, Zephyr, qTest, PractiTest, TcLab
 
 3. Langkah-langkah menggunakan TestRail
-    1. Membuat Test Project
-    2. Membuat Milestone
-    3. Membuat Test Plan
-    4. Membuat Test Runs
-    5. Membuat test case dan menambahkannya ke test runs
-    6. eksekusi Test Case
-    7. Reporting
+    - Membuat Test Project
+    - Membuat Milestone
+    - Membuat Test Plan
+    - Membuat Test Runs
+    - Membuat test case dan menambahkannya ke test runs
+    - eksekusi Test Case
+    - Reporting
