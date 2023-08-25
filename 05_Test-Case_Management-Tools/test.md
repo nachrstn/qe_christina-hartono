@@ -1,0 +1,1 @@
+Hari ini saya datang ke acara coinfest asia day 2
