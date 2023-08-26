@@ -1,1 +1,0 @@
-aku suka makan salad supaya sehat.
