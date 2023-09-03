@@ -73,6 +73,8 @@ public class CekKeuntungan {
 1. Buatlah sebuah function dengan nama drawXYZ yang menjalankan proses dengan menggunakan looping dan menerima satu parameter bernama height. Buatlah sebuah pola kemunculan simbol X, Y, dan Z di print, dimana Y mewakili kelipatan ganjil, Z mewakili kelipatan genap dan X khusus urutan kelipatan 3.
 
 
+
+
 2. Buatlah sebuah program untuk mencetak segitiga asterik
 
 import java.util.Scanner;
