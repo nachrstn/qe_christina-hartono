@@ -73,6 +73,33 @@ public class CekKeuntungan {
 1. Buatlah sebuah function dengan nama drawXYZ yang menjalankan proses dengan menggunakan looping dan menerima satu parameter bernama height. Buatlah sebuah pola kemunculan simbol X, Y, dan Z di print, dimana Y mewakili kelipatan ganjil, Z mewakili kelipatan genap dan X khusus urutan kelipatan 3.
 
 
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan tinggi pola: ");
+        int h = input.nextInt();
+        input.close();
+
+        int jmlHuruf = h * h;
+
+        for (int i = 1; i <= jmlHuruf; i++) {
+            if (i % 3 == 0) {
+                System.out.print("X");
+            } else if (i % 2 == 0) {
+                System.out.print("Z");
+            } else {
+                System.out.print("Y");
+            }
+
+            if (i % h == 0 && i != jmlHuruf) {
+                System.out.print("\n");
+            }
+        }
+    }
+}
+
 
 
 2. Buatlah sebuah program untuk mencetak segitiga asterik
