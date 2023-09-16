@@ -1,0 +1,443 @@
+{
+    "suites": [
+        {
+            "id": 8,
+            "title": "Report",
+            "description": "Testing the Report feature",
+            "preconditions": null,
+            "suites": [],
+            "cases": [
+                {
+                    "id": 18,
+                    "title": "Verify Graphical Reports - Discounts",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report discounts section",
+                    "postconditions": "show the graphical report discounts section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Data Range",
+                            "expected_result": "",
+                            "data": "14/09/2023 00:00:00 - 14/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Choose Discount Type",
+                            "expected_result": "",
+                            "data": "Discount Percent",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Choose Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 19,
+                    "title": "Verify Graphical Reports - Categories",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report categories section",
+                    "postconditions": "show the graphical report categories section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "e2e",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "",
+                            "data": "13/09/2023 00:00:00 - 13/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Choose Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 20,
+                    "title": "Verify Graphical Reports - Customers",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report customers section",
+                    "postconditions": "show the graphical report customers section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "",
+                            "data": "14/09/2023 00:00:00 - 14/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 21,
+                    "title": "Verify Graphical Reports - Employees",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report employees section",
+                    "postconditions": "show the graphical report employees section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "undefined",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "",
+                            "data": "14/09/2023 00:00:00 - 14/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 22,
+                    "title": "[negative] Graphical Reports - Discounts using invalid date format",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report discounts section",
+                    "postconditions": "the date format will automatically return to the default",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Data Range",
+                            "expected_result": "automatically return to the default format",
+                            "data": "14/09/asdf 00:00:fg - 14/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Transaction Type",
+                            "expected_result": "Success",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Choose Discount Type",
+                            "expected_result": "Success",
+                            "data": "Discount Percent",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Choose Stock Location",
+                            "expected_result": "Success",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 23,
+                    "title": "[negative] Graphical Reports - Categories using invalid date format",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report categories section",
+                    "postconditions": "the date format will automatically return to the default",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "e2e",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "automatically return to the default format",
+                            "data": "13/09/asdf 00:er:00 - 13/09/2023 23:21:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Choose Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 24,
+                    "title": "[negative] Graphical Reports - Customers using invalid date format",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report customers section",
+                    "postconditions": "the date format will automatically return to the default",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "automatically return to the default format",
+                            "data": "14/09/e3f 00:00:00 - 78/09/2023 23:59:8h",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 25,
+                    "title": "[negative] Graphical Reports - Employees using invalid date format",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the graphical report employees section",
+                    "postconditions": "the date format will automatically return to the default",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "undefined",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "automatically return to the default format",
+                            "data": "wf/j7/2023 00:00:00 - 14/093f2023 23:r4:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Choose Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 34,
+                    "title": "Verify Summary Reports - Payments",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the summary report payments section",
+                    "postconditions": "show the summary report payments section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "",
+                            "data": "14/09/2023 00:00:00 - 14/09/2023 23:59:59",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 35,
+                    "title": "Verify Summary Reports - Suppliers",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the report feature icon\n4. select the summary report suppliers section",
+                    "postconditions": "show the summary report suppliers section",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Date Range",
+                            "expected_result": "",
+                            "data": "14/09/2023 00:00:00 - 14/09/2023 23:59:59",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Transaction Type",
+                            "expected_result": "",
+                            "data": "Completed Sales and Returns",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Stock Location",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}

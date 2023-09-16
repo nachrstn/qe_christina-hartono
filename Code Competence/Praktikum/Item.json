@@ -1,0 +1,455 @@
+{
+    "suites": [
+        {
+            "id": 7,
+            "title": "Item",
+            "description": "Testing the Item feature",
+            "preconditions": null,
+            "suites": [],
+            "cases": [
+                {
+                    "id": 2,
+                    "title": "create new item",
+                    "description": "create new item",
+                    "preconditions": "1. user has registered\n2. click on the item feature icon",
+                    "postconditions": "successful create new item",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "functional",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "e2e",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Barcode",
+                            "expected_result": "",
+                            "data": "129",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Item Name",
+                            "expected_result": "",
+                            "data": "capcay",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Category",
+                            "expected_result": "",
+                            "data": "Makanan",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Select Add Attribute",
+                            "expected_result": "",
+                            "data": "A",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Checked Stock Type",
+                            "expected_result": "",
+                            "data": "Stock",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Checked Item Type",
+                            "expected_result": "",
+                            "data": "Standard",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Enter Supplier",
+                            "expected_result": "",
+                            "data": "Alterra",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Wholesale Price",
+                            "expected_result": "",
+                            "data": "3",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Retail Price",
+                            "expected_result": "",
+                            "data": "1",
+                            "steps": []
+                        },
+                        {
+                            "position": 10,
+                            "action": "Enter Tax 1",
+                            "expected_result": "",
+                            "data": "45",
+                            "steps": []
+                        },
+                        {
+                            "position": 11,
+                            "action": "Enter Tax 2",
+                            "expected_result": "",
+                            "data": "45",
+                            "steps": []
+                        },
+                        {
+                            "position": 12,
+                            "action": "Enter Harmonized System Nomenclature",
+                            "expected_result": "",
+                            "data": "1",
+                            "steps": []
+                        },
+                        {
+                            "position": 13,
+                            "action": "Enter Quantity BCH",
+                            "expected_result": "",
+                            "data": "3",
+                            "steps": []
+                        },
+                        {
+                            "position": 14,
+                            "action": "Enter Quantity JUNCTION",
+                            "expected_result": "",
+                            "data": "1",
+                            "steps": []
+                        },
+                        {
+                            "position": 15,
+                            "action": "Enter Quantity Panhpao",
+                            "expected_result": "",
+                            "data": "4",
+                            "steps": []
+                        },
+                        {
+                            "position": 16,
+                            "action": "Enter Receiving Quantity",
+                            "expected_result": "",
+                            "data": "1",
+                            "steps": []
+                        },
+                        {
+                            "position": 17,
+                            "action": "Enter Reorder Level",
+                            "expected_result": "",
+                            "data": "5",
+                            "steps": []
+                        },
+                        {
+                            "position": 18,
+                            "action": "Enter Description",
+                            "expected_result": "",
+                            "data": "test",
+                            "steps": []
+                        },
+                        {
+                            "position": 19,
+                            "action": "Enter Avatar",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 20,
+                            "action": "Checked Allow Alternate Description",
+                            "expected_result": "",
+                            "data": "Checked",
+                            "steps": []
+                        },
+                        {
+                            "position": 21,
+                            "action": "Checked Item has Serial Number",
+                            "expected_result": "",
+                            "data": "Checked",
+                            "steps": []
+                        },
+                        {
+                            "position": 22,
+                            "action": "Enter Quantity per pack",
+                            "expected_result": "",
+                            "data": "1",
+                            "steps": []
+                        },
+                        {
+                            "position": 23,
+                            "action": "Enter Pack Name",
+                            "expected_result": "",
+                            "data": "Each",
+                            "steps": []
+                        },
+                        {
+                            "position": 24,
+                            "action": "Enter Low sell item",
+                            "expected_result": "",
+                            "data": "11 \\| Each",
+                            "steps": []
+                        },
+                        {
+                            "position": 25,
+                            "action": "Checked",
+                            "expected_result": "",
+                            "data": "Checked",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 3,
+                    "title": "[negative] create new item with incomplete data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the new item button",
+                    "postconditions": "unsuccessful create",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter barcode",
+                            "expected_result": "",
+                            "data": "133",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Item Name",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Category",
+                            "expected_result": "",
+                            "data": "minuman",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 4,
+                    "title": "verify check box option",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon",
+                    "postconditions": null,
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Checked one by one",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "All checked",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 5,
+                    "title": "verify search feature",
+                    "description": null,
+                    "preconditions": "1. user has login/registered\n2. click on the item feature icon\n3. click on search bar",
+                    "postconditions": "show search input value",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Search input",
+                            "expected_result": "show capcay field",
+                            "data": "capcay",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 6,
+                    "title": "verify filter feature",
+                    "description": null,
+                    "preconditions": "1. user has login/registered\n2. click on the item feature icon",
+                    "postconditions": null,
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Choose filter option",
+                            "expected_result": "",
+                            "data": "Empty Barcode Items\nOut of Stock Items\nNo Description Items",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 7,
+                    "title": "verify dropdown filter feature row per page",
+                    "description": "verify dropdown filter feature displays row per page",
+                    "preconditions": null,
+                    "postconditions": null,
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Choose number of fields",
+                            "expected_result": "show 10 fields",
+                            "data": "10",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 8,
+                    "title": "update inventory",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon",
+                    "postconditions": "pop up message success and data that has been submitted can be viewed",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "e2e",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "update stock location",
+                            "expected_result": "displayed",
+                            "data": "JUNCTION",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Inventory to add or subtract.",
+                            "expected_result": "displayed",
+                            "data": "12",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Comments",
+                            "expected_result": "displayed",
+                            "data": "coba",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 17,
+                    "title": "[negative] filter items by invalid format time",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on date filter",
+                    "postconditions": "can't apply by invalid format date",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "e2e",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter start date",
+                            "expected_result": "unsuccessful",
+                            "data": "asdf",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter end date",
+                            "expected_result": "unsuccessful",
+                            "data": "zxcv",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}

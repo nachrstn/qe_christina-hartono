@@ -1,0 +1,294 @@
+{
+    "suites": [
+        {
+            "id": 5,
+            "title": "Sales",
+            "description": "Testing the Sales feature",
+            "preconditions": null,
+            "suites": [],
+            "cases": [
+                {
+                    "id": 55,
+                    "title": "Create New Customer",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. click on new customer",
+                    "postconditions": "success create new customers",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "checklist Registration consent",
+                            "expected_result": "",
+                            "data": "checked",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "First Name",
+                            "expected_result": "",
+                            "data": "Ani",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Last Name",
+                            "expected_result": "",
+                            "data": "Nuryani",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Gender",
+                            "expected_result": "",
+                            "data": "F",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 56,
+                    "title": "[negative] Create New Customer with incomplete data",
+                    "description": "did not fill in all fields",
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. click on New Customer",
+                    "postconditions": "alert empty field",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "did not fill in all fields",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "click submit button",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 57,
+                    "title": "Verify Sales Keyboard Shortcuts",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon",
+                    "postconditions": "displays the result according to the keyboard shortcut",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "click on shortcut button",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "try shortcut keyboard",
+                            "expected_result": "",
+                            "data": "ALT + 9",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 58,
+                    "title": "Verify Show Receipt Feature",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. click on show receipt",
+                    "postconditions": "show receipt sales",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "click on the show receipt icon",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 59,
+                    "title": "Verify Print Sales Feature",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. click on Daily Sales",
+                    "postconditions": "Export Sales in pdf format",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Click on the Print Icon",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Customize pdf format",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 60,
+                    "title": "Verify Delete Sales",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. click on Daily Sales",
+                    "postconditions": "success deleted field and success deleted notification appears",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Checked data",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "click deleted button",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 61,
+                    "title": "Add Discount",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Sales feature icon\n3. Search field with search bar",
+                    "postconditions": "success add discount",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "turn on discount",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 62,
+                    "title": "[negative] Search for the wrong value to the Search Bar Sales",
+                    "description": null,
+                    "preconditions": null,
+                    "postconditions": null,
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Search input",
+                            "expected_result": "",
+                            "data": "asdf qwe",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}

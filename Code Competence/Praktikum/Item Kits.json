@@ -1,0 +1,562 @@
+{
+    "suites": [
+        {
+            "id": 4,
+            "title": "Item Kit",
+            "description": "Testing the Item Kit feature",
+            "preconditions": null,
+            "suites": [],
+            "cases": [
+                {
+                    "id": 45,
+                    "title": "Create New Item Kit",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon\n3. click on the New Item kit",
+                    "postconditions": "kit item is created successfully, displays a success message and data that has been submitted can be seen all",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Barcode",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Package Item Name",
+                            "expected_result": "",
+                            "data": "Milkshake",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Item Kits",
+                            "expected_result": "",
+                            "data": "Minuman",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Enter Discount Type",
+                            "expected_result": "",
+                            "data": "Discount Percentage",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Discount",
+                            "expected_result": "",
+                            "data": "10",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Pricing Options",
+                            "expected_result": "",
+                            "data": "Kits only",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Print Options",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Package Item Description",
+                            "expected_result": "",
+                            "data": "Test",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Add Item",
+                            "expected_result": "",
+                            "data": "3",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 46,
+                    "title": "[negative] Create New Item Kit with incomplete required data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon\n3. click on the new item kit button",
+                    "postconditions": "show alert empty required field",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter barcode",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Package Item Name",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Item Package",
+                            "expected_result": "",
+                            "data": "makanan",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Choose Discount Type",
+                            "expected_result": "",
+                            "data": "Discount Percentage",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Discount",
+                            "expected_result": "",
+                            "data": "2",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Choose Pricing Options",
+                            "expected_result": "",
+                            "data": "Kits and components",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Choose Print Options",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Package Item Description",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Add Item",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 47,
+                    "title": "Verify Update Item Kit",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon\n3. click update kit item icon based on selected id",
+                    "postconditions": "kit item is updated successfully, displays a success message and data that has been submitted can be seen all",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Bar code",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Package Item Name",
+                            "expected_result": "",
+                            "data": "es teh",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Item Package",
+                            "expected_result": "item package data can be seen",
+                            "data": "minuman manis",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Choose Discount Type",
+                            "expected_result": "",
+                            "data": "Discount Percentage",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Discount",
+                            "expected_result": "",
+                            "data": "12",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Choose Pricing Options",
+                            "expected_result": "",
+                            "data": "Kits and components",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Choose Print Options",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Package Item Description",
+                            "expected_result": "",
+                            "data": "es teh manis enak",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Add Item",
+                            "expected_result": "Add Item data can be seen",
+                            "data": "12",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 48,
+                    "title": "[negative] Update Item Kit with incomplete required data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon\n3. click update kit item icon based on selected id",
+                    "postconditions": "Can't update data and display alert",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Bar code",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Package Item Name",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Item Package",
+                            "expected_result": "show alert",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Enter Discount Type",
+                            "expected_result": "",
+                            "data": "Discount Percentage",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Discount",
+                            "expected_result": "",
+                            "data": "12",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Enter Pricing Options",
+                            "expected_result": "",
+                            "data": "Kits and components",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Enter Print Options",
+                            "expected_result": "",
+                            "data": "All",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Package Item Description",
+                            "expected_result": "",
+                            "data": "es teh manis enak",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Add Item",
+                            "expected_result": "Add Item data can be seen",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 49,
+                    "title": "Verify Search Bar",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "displays search result data",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "input keywords in the search bar",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "click enter on keyboard",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 50,
+                    "title": "Verify Dropdown Checklist Filter",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "displays data according to the selection",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "click on the dropdown filter icon",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "checked the option",
+                            "expected_result": "",
+                            "data": "Item Kits name, and Item Kits Description",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 51,
+                    "title": "Verify Sort Feature",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "shows a list of kits items that have been sorted",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "click the column to be sorted",
+                            "expected_result": "A-Z",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 52,
+                    "title": "Verify Generate Barcode",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "shows the barcode of the checked data",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "check the data that will be barcoded.",
+                            "expected_result": "",
+                            "data": "33, 36, 38",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "click the generate barcode button",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 53,
+                    "title": "Verify Delete Item Kits",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "Delete the selected data and a successful delete notification appears.",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "select or check the data to be deleted",
+                            "expected_result": "",
+                            "data": "31, 40",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "click on the Delete button",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 54,
+                    "title": "Verify Export Item Kits Feature",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the Item Kits feature icon",
+                    "postconditions": "Item kits data is successfully exported according to the data display on the web and the file format selected.",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "click the export data icon",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "choose format file",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}

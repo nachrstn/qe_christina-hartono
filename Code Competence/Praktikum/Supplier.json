@@ -1,0 +1,449 @@
+{
+    "suites": [
+        {
+            "id": 3,
+            "title": "Supplier",
+            "description": "Testing the Supplier feature",
+            "preconditions": null,
+            "suites": [],
+            "cases": [
+                {
+                    "id": 36,
+                    "title": "Create New Supplier",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon",
+                    "postconditions": "Successful notification appears and data can be viewed",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Company Name",
+                            "expected_result": "",
+                            "data": "Indofood",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose Category",
+                            "expected_result": "",
+                            "data": "Goods Suppliers",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Enter Agency Name",
+                            "expected_result": "",
+                            "data": "Indomie",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Enter First Name",
+                            "expected_result": "",
+                            "data": "Mira",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Last Name",
+                            "expected_result": "",
+                            "data": "Sumiati",
+                            "steps": []
+                        },
+                        {
+                            "position": 6,
+                            "action": "Choose Gender",
+                            "expected_result": "",
+                            "data": "F",
+                            "steps": []
+                        },
+                        {
+                            "position": 7,
+                            "action": "Enter Email",
+                            "expected_result": "",
+                            "data": "sumiati@gmail.com",
+                            "steps": []
+                        },
+                        {
+                            "position": 8,
+                            "action": "Enter Phone Number",
+                            "expected_result": "",
+                            "data": "081234",
+                            "steps": []
+                        },
+                        {
+                            "position": 9,
+                            "action": "Enter Address 1",
+                            "expected_result": "",
+                            "data": "Jl. Kartika Plaza",
+                            "steps": []
+                        },
+                        {
+                            "position": 10,
+                            "action": "Enter Address 2",
+                            "expected_result": "",
+                            "data": "-",
+                            "steps": []
+                        },
+                        {
+                            "position": 11,
+                            "action": "Enter City",
+                            "expected_result": "",
+                            "data": "Sleman",
+                            "steps": []
+                        },
+                        {
+                            "position": 12,
+                            "action": "Enter State",
+                            "expected_result": "",
+                            "data": "Jogjakarta",
+                            "steps": []
+                        },
+                        {
+                            "position": 13,
+                            "action": "Enter Postal Code",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        },
+                        {
+                            "position": 14,
+                            "action": "Enter Country",
+                            "expected_result": "",
+                            "data": "Indonesia",
+                            "steps": []
+                        },
+                        {
+                            "position": 15,
+                            "action": "Enter Comments",
+                            "expected_result": "",
+                            "data": "Indomie enak",
+                            "steps": []
+                        },
+                        {
+                            "position": 16,
+                            "action": "Enter Account Number",
+                            "expected_result": "",
+                            "data": "123",
+                            "steps": []
+                        },
+                        {
+                            "position": 17,
+                            "action": "Enter Tax Id",
+                            "expected_result": "",
+                            "data": "1234",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 37,
+                    "title": "Verify Search Bar",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon",
+                    "postconditions": "show indomie field",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Search input",
+                            "expected_result": "show indomie field",
+                            "data": "indomie",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 38,
+                    "title": "Verify Dropdown Checklist Filter",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon",
+                    "postconditions": "display data based on checklist",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Checked list",
+                            "expected_result": "",
+                            "data": "ID, Company Name, Agency Name, First name, Phone Number",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 39,
+                    "title": "Verify Export Suppliers Data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon\n4. Click on the Export Data icon",
+                    "postconditions": "Export Suppliers Data based on file format",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Choose file format",
+                            "expected_result": "",
+                            "data": "PDF",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 40,
+                    "title": "Verify Sort Feature",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon",
+                    "postconditions": "display data based on sort",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Click field Company Name",
+                            "expected_result": "",
+                            "data": "A to Z",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 41,
+                    "title": "Verify Delete Field",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon",
+                    "postconditions": "success deleted suppliers notification",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Checked data",
+                            "expected_result": "",
+                            "data": "55",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 42,
+                    "title": "[negative] Create New Supplier with incomplete required data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon\n4. click on the New Supplier button",
+                    "postconditions": "display alerts of empty required fields",
+                    "priority": "high",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Enter Name of the company",
+                            "expected_result": "",
+                            "data": "Unilever",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Enter Category",
+                            "expected_result": "",
+                            "data": "Supplier Costs",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Empty Name",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Empty Surnames",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 5,
+                            "action": "Enter Gender",
+                            "expected_result": "",
+                            "data": "M",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 43,
+                    "title": "Verify Update Supplier",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon\n4. click on the Update icon",
+                    "postconditions": "success update notification appear",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Agency Name",
+                            "expected_result": "",
+                            "data": "Pop mie",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Name",
+                            "expected_result": "",
+                            "data": "Intan",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Surnames",
+                            "expected_result": "",
+                            "data": "Diana",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Telephone",
+                            "expected_result": "",
+                            "data": "081234123",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 44,
+                    "title": "[negative] Update Supplier with incomplete required data",
+                    "description": null,
+                    "preconditions": "1. user has registered\n2. click on the item feature icon\n3. click on the Suppliers icon\n4. click on the Update suppliers icon",
+                    "postconditions": "display alerts of empty required field",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "is-not-automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "empty field Name of the company",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "empty field Name",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "empty field Surnames",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}
