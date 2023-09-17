@@ -1,0 +1,251 @@
+{
+    "suites": [
+        {
+            "id": 2,
+            "title": "POST new data",
+            "description": null,
+            "preconditions": "User accesses Postman",
+            "suites": [],
+            "cases": [
+                {
+                    "id": 5,
+                    "title": "Verify that the API response status code is 201 Created.",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 201 Created",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "POST"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Input Payload",
+                            "expected_result": "",
+                            "data": "{\n\u00a0\u00a0\u00a0\u00a0\"userId\":\u00a011,\n\u00a0\u00a0\u00a0\u00a0\"id\":\u00a0101,\n\u00a0\u00a0\u00a0\u00a0\"title\":\u00a0\"test\",\n\u00a0\u00a0\u00a0\u00a0\"body\":\u00a0\"lorem\u00a0ipsum\"\n\u00a0\u00a0}"
+                        },
+                        {
+                            "position": 4,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 6,
+                    "title": "Verify that the API response is in the expected format",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "Response in JSON format",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "POST"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Input Payload",
+                            "expected_result": "",
+                            "data": "{\n\u00a0\u00a0\u00a0\u00a0\"userId\":\u00a011,\n\u00a0\u00a0\u00a0\u00a0\"id\":\u00a0101,\n\u00a0\u00a0\u00a0\u00a0\"title\":\u00a0\"test\",\n\u00a0\u00a0\u00a0\u00a0\"body\":\u00a0\"lorem\u00a0ipsum\"\n\u00a0\u00a0}"
+                        },
+                        {
+                            "position": 4,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 7,
+                    "title": "[negative] Verify API Invalid Request Method",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 404 Not Found",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "PATCH",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Input Payload",
+                            "expected_result": "",
+                            "data": "{\n \"userId\": 11,\n \"id\": 101,\n \"title\": \"test\",\n \"body\": \"lorem ipsum\"\n }",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 8,
+                    "title": "[negative] Verify API using invalid URL",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 404 Not Found",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/posts)p0ts",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "POST",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Input Payload",
+                            "expected_result": "",
+                            "data": "{\n\n\u00a0\u00a0\u00a0\u00a0\"userId\":\u00a011,\n\u00a0\u00a0\u00a0\u00a0\"id\":\u00a0101,\n\u00a0\u00a0\u00a0\u00a0\"title\":\u00a0\"test\",\n\u00a0\u00a0\u00a0\u00a0\"body\":\u00a0\"lorem\u00a0ipsum\"\n\u00a0\u00a0}",
+                            "steps": []
+                        },
+                        {
+                            "position": 4,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 22,
+                    "title": "Verify that the API response time is under 1000",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "response time is under 1000",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "POST"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Input Payload",
+                            "expected_result": "",
+                            "data": "{\n\u00a0\u00a0\u00a0\u00a0\"userId\":\u00a011,\n\u00a0\u00a0\u00a0\u00a0\"id\":\u00a0101,\n\u00a0\u00a0\u00a0\u00a0\"title\":\u00a0\"test\",\n\u00a0\u00a0\u00a0\u00a0\"body\":\u00a0\"lorem\u00a0ipsum\"\n\u00a0\u00a0}"
+                        },
+                        {
+                            "position": 4,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}

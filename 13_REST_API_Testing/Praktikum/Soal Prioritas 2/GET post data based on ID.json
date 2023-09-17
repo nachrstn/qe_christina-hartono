@@ -1,0 +1,219 @@
+{
+    "suites": [
+        {
+            "id": 3,
+            "title": "GET post data based on ID",
+            "description": null,
+            "preconditions": "User accesses Postman",
+            "suites": [],
+            "cases": [
+                {
+                    "id": 9,
+                    "title": "Verify that the API response status code is 200 OK.",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 200 OK.",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "GET"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 10,
+                    "title": "Verify that the API response is in the expected format",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "Response format should be JSON",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "GET"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 11,
+                    "title": "[negative] Verify API Invalid Request Method",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 404 Not Found",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "POST",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 12,
+                    "title": "[negative] Verify API using invalid URL",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "HTTP status code should be 404 Not Found",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "negative",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/posts/1)p0ts[/1](https://jsonplaceholder.typicode.com/posts/1)",
+                            "steps": []
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "GET",
+                            "steps": []
+                        },
+                        {
+                            "position": 3,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": "",
+                            "steps": []
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                },
+                {
+                    "id": 23,
+                    "title": "Verify that the API response time is under 1000",
+                    "description": null,
+                    "preconditions": "User accesses Postman",
+                    "postconditions": "response time is under 1000",
+                    "priority": "medium",
+                    "severity": "normal",
+                    "type": "other",
+                    "behavior": "positive",
+                    "automation": "automated",
+                    "status": "actual",
+                    "is_flaky": "no",
+                    "layer": "unknown",
+                    "milestone": null,
+                    "custom_fields": [],
+                    "steps_type": "classic",
+                    "steps": [
+                        {
+                            "position": 1,
+                            "action": "Input endpoint",
+                            "expected_result": "",
+                            "data": "[https://jsonplaceholder.typicode.com/posts/1](https://jsonplaceholder.typicode.com/posts/1)"
+                        },
+                        {
+                            "position": 2,
+                            "action": "Choose the method",
+                            "expected_result": "",
+                            "data": "GET"
+                        },
+                        {
+                            "position": 3,
+                            "action": "Click Send",
+                            "expected_result": "",
+                            "data": ""
+                        }
+                    ],
+                    "tags": [],
+                    "params": []
+                }
+            ]
+        }
+    ]
+}
