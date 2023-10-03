@@ -1,0 +1,13 @@
+{
+    "inputName": "chris",
+    "address": "jl kenanga",
+    "city": "bandung",
+    "state": "jawa barat",
+    "zipCode": "1234",
+    "cardType": "amex",
+    "creditcardNumber": "1234",
+    "creditcardMonth": "11",
+    "creditcardYear": "2017",
+    "nameOnCard": "chris",
+    "rememberMe": "on"
+}
