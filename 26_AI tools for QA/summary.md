@@ -10,4 +10,8 @@
     - Mobile Testing (Testim, Applitools, dan Functionize)
     - API Testing (Functionize, Pulse)
 
-3. 
+3. Langkah-langkah testing menggunakan Selenium
+    - membuat project baru
+    - membuat test case di selenium
+    - merekam test case disertai check element menggunakan Applitools
+    - menjalankan test case
