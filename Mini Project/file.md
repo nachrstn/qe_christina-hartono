@@ -1,3 +1,9 @@
 # File Mini Project
 MVP
 https://docs.google.com/document/d/1M1y-pny8lGLOomIxTGbSlj5ziGVxq1Au/edit?usp=drive_link&ouid=108211789404886497065&rtpof=true&sd=true
+
+Test Case
+https://docs.google.com/spreadsheets/d/17wjU8yJ8DVRKIUgtrL1n4jaWQGR5TZgXwlHT2XSGjuA/edit?usp=drive_link
+
+Bug Report
+https://docs.google.com/document/d/1k6rCRqqraP3gNypxrA6c9sl73yP8Bz4C/edit?usp=drive_link&ouid=108211789404886497065&rtpof=true&sd=true
