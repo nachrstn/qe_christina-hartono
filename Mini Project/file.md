@@ -8,6 +8,9 @@ https://github.com/nachrstn/qe_christina-hartono/tree/main/Mini%20Project
 Github CI/CD
 https://github.com/nachrstn/AltaMiniProject
 
+Google Drive berisi Dokumentasi, Report, Bug Report, Test Case
+https://drive.google.com/drive/folders/1KP_sStApQ20rJDHpkNyC9g9L6t_jD7dj?usp=drive_link
+
 Test Case
 https://docs.google.com/spreadsheets/d/17wjU8yJ8DVRKIUgtrL1n4jaWQGR5TZgXwlHT2XSGjuA/edit?usp=drive_link
 
