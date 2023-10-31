@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>positive - login with uppercase letter in email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0eea836-8cb0-4484-87ae-25edc9d0f81f</testCaseGuid>
+</TestCaseEntity>

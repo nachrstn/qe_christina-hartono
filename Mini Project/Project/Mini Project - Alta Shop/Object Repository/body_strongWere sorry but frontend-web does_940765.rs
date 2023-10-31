@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>body_strongWere sorry but frontend-web does_940765</name>
+   <tag></tag>
+   <elementGuidId>2a421b8c-b8f1-4506-a71e-f5cdf321da54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+      <webElementGuid>c68a72ed-8f53-4ab6-bffc-b4c6cb6b5f76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>&lt;strong>We're sorry but frontend-web doesn't work properly without JavaScript enabled. Please enable it to continue.&lt;/strong>AltaShop0RegisterNama LengkapEmailPasswordRegister Sudah memiliki akun? Loginid(&quot;input-18&quot;)</value>
+      <webElementGuid>786483d0-a409-4172-b3de-90682a050f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]</value>
+      <webElementGuid>97e8dfbb-688e-4020-8dbf-cdf934f775b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+      <webElementGuid>90f74f02-8eb9-4f09-8d48-6546ef89175f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//body[(text() = concat(&quot;&lt;strong>We&quot; , &quot;'&quot; , &quot;re sorry but frontend-web doesn&quot; , &quot;'&quot; , &quot;t work properly without JavaScript enabled. Please enable it to continue.&lt;/strong>AltaShop0RegisterNama LengkapEmailPasswordRegister Sudah memiliki akun? Loginid(&quot;input-18&quot;)&quot;) or . = concat(&quot;&lt;strong>We&quot; , &quot;'&quot; , &quot;re sorry but frontend-web doesn&quot; , &quot;'&quot; , &quot;t work properly without JavaScript enabled. Please enable it to continue.&lt;/strong>AltaShop0RegisterNama LengkapEmailPasswordRegister Sudah memiliki akun? Loginid(&quot;input-18&quot;)&quot;))]</value>
+      <webElementGuid>80436db1-15c4-4c72-8b29-1cdcbf4d676f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>positive - Product - user can add product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b5eb5e1-c587-4f40-a447-b6eed0305d6a</testCaseGuid>
+</TestCaseEntity>

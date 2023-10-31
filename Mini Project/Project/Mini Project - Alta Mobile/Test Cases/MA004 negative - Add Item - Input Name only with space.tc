@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA004 negative - Add Item - Input Name only with space</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9e58428-e774-4f8f-9d73-35f60077d8a4</testCaseGuid>
+</TestCaseEntity>

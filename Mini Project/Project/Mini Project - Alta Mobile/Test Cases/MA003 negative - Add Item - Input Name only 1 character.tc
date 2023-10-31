@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA003 negative - Add Item - Input Name only 1 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>554ce9ba-9add-45f3-b89a-1133f255d07d</testCaseGuid>
+</TestCaseEntity>

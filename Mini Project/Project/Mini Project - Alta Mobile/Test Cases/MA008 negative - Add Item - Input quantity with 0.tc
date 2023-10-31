@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA008 negative - Add Item - Input quantity with 0</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4861189a-19f1-45ec-ae75-bb3197733028</testCaseGuid>
+</TestCaseEntity>

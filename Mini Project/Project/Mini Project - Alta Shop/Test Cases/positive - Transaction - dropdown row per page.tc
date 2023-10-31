@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>positive - Transaction - dropdown row per page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd8d09fa-8f67-47a5-a1bb-9f2a3ba33374</testCaseGuid>
+</TestCaseEntity>

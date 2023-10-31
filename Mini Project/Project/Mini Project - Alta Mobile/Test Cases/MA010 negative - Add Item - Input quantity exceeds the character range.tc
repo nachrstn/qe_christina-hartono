@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA010 negative - Add Item - Input quantity exceeds the character range</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caae60e2-1b31-4ee1-8c52-0cd693620864</testCaseGuid>
+</TestCaseEntity>

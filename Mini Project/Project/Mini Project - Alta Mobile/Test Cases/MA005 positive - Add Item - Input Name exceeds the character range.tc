@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA005 positive - Add Item - Input Name exceeds the character range</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b965ee16-f46a-4fae-bbb7-349c8311e6b4</testCaseGuid>
+</TestCaseEntity>

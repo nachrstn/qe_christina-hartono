@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>positive - Cart - user can reduces quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f5afe89-ea3e-42c1-93ab-08daaff4d528</testCaseGuid>
+</TestCaseEntity>

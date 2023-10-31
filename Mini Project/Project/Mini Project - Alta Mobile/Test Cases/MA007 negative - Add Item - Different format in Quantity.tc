@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA007 negative - Add Item - Different format in Quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99a8ef72-c7b8-4132-899d-91e3c1bd4378</testCaseGuid>
+</TestCaseEntity>
