@@ -16,3 +16,6 @@ https://docs.google.com/spreadsheets/d/17wjU8yJ8DVRKIUgtrL1n4jaWQGR5TZgXwlHT2XSG
 
 Bug Report
 https://docs.google.com/document/d/1k6rCRqqraP3gNypxrA6c9sl73yP8Bz4C/edit?usp=drive_link&ouid=108211789404886497065&rtpof=true&sd=true
+
+Powerpoint
+https://docs.google.com/presentation/d/1mwa27GikIejyWcNpNGdvh7CihCDOxGFm/edit?usp=drive_link&ouid=108211789404886497065&rtpof=true&sd=true
